@@ -1,0 +1,13 @@
+# Node.js un npm faili
+node_modules/
+package-lock.json
+
+# OS specifiski faili
+.DS_Store
+Thumbs.db
+
+# VS Code konfigurācijas faili
+.vscode/
+
+# Sass un kompīlētie CSS faili
+*.css.map
