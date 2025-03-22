@@ -15,6 +15,21 @@
 </head>
 
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">MENU</label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span> Natours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your benefits</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <header class="header">
         <div class="header__logo-box">
             <img src="img/logo-white.png" alt="Logo" class="header__logo">
@@ -352,10 +367,11 @@
             <div class="col-1-of-2">
                 <p class="footer__copyright">
                     © 2025 Aigars Alutis. This website was built as part of a course by
-                    <a href="https://jonasschmedtmann.com" class="footer__link" target="_blank" rel="noopener noreferrer">Jonas
+                    <a href="https://jonasschmedtmann.com" class="footer__link" target="_blank"
+                        rel="noopener noreferrer">Jonas
                         Schmedtmann</a>.
                     Original design by Jonas Schmedtmann.
-                    Customized and developed by<a href="#" class="footer__link">   Aigars Alutis</a>.
+                    Customized and developed by<a href="#" class="footer__link"> Aigars Alutis</a>.
                 </p>
 
             </div>
@@ -431,12 +447,7 @@
         </div>
     </section>
  -->
-    <script>
-        window.addEventListener("load", function () {
-            console.log("scrollHeight:", document.body.scrollHeight);
-            window.scrollTo(0, document.body.scrollHeight);
-        });
-    </script>
+
 </body>
 
 </html>
